@@ -1,0 +1,80 @@
+/* === Footer Contact Section === */
+.footer-contact {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  padding: 3rem 2rem 2rem;
+  font-size: 0.95rem;
+}
+
+/* Grid layout for footer columns */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer column titles */
+.footer-column h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Footer text and links */
+.footer-column p,
+.footer-column a {
+  color: #c9d1d9;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.footer-column a:hover {
+  color: #58a6ff;
+}
+
+/* Footer links list */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+/* Newsletter or contact form */
+.footer-form input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  margin-right: 0.5rem;
+  width: 70%;
+  max-width: 200px;
+}
+
+.footer-form button {
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-form button:hover {
+  background-color: #2ea043;
+}
+
+/* Footer bottom note (copyright, etc.) */
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #30363d;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: #8b949e;
+}

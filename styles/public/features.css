@@ -1,0 +1,51 @@
+/* === Features Section === */
+.features-section {
+  background-color: #fefefe;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: -80px; /* Adjust section overlap */
+}
+
+/* Section heading */
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* Responsive grid for feature cards */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual feature card */
+.feature-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Card title */
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #007BFF;
+}
+
+/* Card description */
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+}

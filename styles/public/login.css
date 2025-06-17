@@ -1,0 +1,99 @@
+/* === Login Section (Styled to Match Create Account Section) === */
+.login-section {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.login-container {
+  max-width: 500px;
+  margin: 80px auto;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.login-container h2 {
+  font-size: 2.5rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+/* Subtext below heading */
+.login-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Form layout */
+.login-form {
+  text-align: left;
+}
+
+/* Form group wrapper */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Labels */
+.login-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fefefe;
+  transition: border 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Submit Button */
+.login-btn {
+  display: inline-block;
+  width: 100%;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Extra text (e.g., sign-up prompt) */
+.login-extra {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.login-extra a {
+  color: #007BFF;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-extra a:hover {
+  text-decoration: underline;
+}

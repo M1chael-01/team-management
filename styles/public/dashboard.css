@@ -1,0 +1,18 @@
+ body { 
+      font-family: 'Inter', sans-serif; 
+      scroll-behavior: smooth;
+    }
+
+    /* Active sidebar link */
+    .active-link {
+      background-color: #e0f2fe;
+      color: #0284c7;
+      font-weight: 600;
+    }
+
+    /* Smooth shadow hover */
+    .card-hover:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      transform: translateY(-2px);
+      transition: all 0.2s ease-in-out;
+    }
